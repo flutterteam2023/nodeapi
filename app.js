@@ -7,7 +7,7 @@ require("./src/config/database.connection")
 
 const port = process.env.PORT || 3001
 
-
+require('dotenv').config();
 app.use(express.json()) 
 
 //domain.com/api/todo için
