@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "nodeapi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flutterteam2023/nodeapi.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flutterteam2023/nodeapi/issues"
+  },
+  "homepage": "https://github.com/flutterteam2023/nodeapi#readme",
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
