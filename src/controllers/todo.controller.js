@@ -58,7 +58,7 @@ const todoGetAll = async (req, res) =>{
     } catch (error) {
         return res.status(500).json({
             success: false,
-            message: "Kayıtlar getirilemedi!"
+            message: "Kayıtlar getirilemedi! Hata oluştu"
         })
     }
 }
