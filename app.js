@@ -16,7 +16,7 @@ const todoRouter = require("./src/routers/todo.routers")
 app.use("/api", todoRouter)
 
 app.get("/", (req, res)=>{
-    res.send("Hoşgeldiniz");
+    res.send("Hoşgeldiniz. Todo Api");
 })
 
 app.listen(port, ()=>{
